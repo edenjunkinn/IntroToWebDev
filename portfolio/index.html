@@ -2,17 +2,45 @@
 <!--
 Name: Eden Junkin
 Date Created: April 20 2022
-Most recent revision:
+Date last modified: May 4 2022
 -->
 <html lang="en">
 
   <head>
     <title>Eden Junkin's Portfolio</title>
-    <link href="teststyles.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
     <style>
-      header {
-        background-color: darkgray;
-    }
+      caption {
+        font-weight: bold;
+        font-size: 1.2em;
+        margin: 8px;
+      }
+
+      table, th, td {
+        border: 1px solid #0d1f2d;
+        border-collapse: collapse;
+        padding: 5px 10px;
+      }
+
+      table {
+        width: 90%;
+        margin: auto;
+      }
+
+      tr {
+        height: 30px;
+      }
+
+      th {
+        background-color: #546a7b;
+        color: #f2eded;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #e4c3ad;
+      }
+
+
     </style>
   </head>
 
@@ -22,11 +50,9 @@ Most recent revision:
     </header>
 
     <nav class="border">
-       <hr style="width: 95%; border: 2px solid violet;">
        <p><a href="projects.html">Projects</a></p>
        <p><a href="contact.html">Contact</a></p>
        <p><a href="testimonials.html">Testimonials</a></p>
-       <hr style="width: 95%; border: 2px solid violet;">
     </nav>
 
     <section>
@@ -38,23 +64,74 @@ Most recent revision:
          <p>Vivamus nec sollicitudin diam, at posuere augue. <strong>Nunc pulvinar imperdiet massa ut tincidunt.</strong> Pellentesque ac tincidunt metus, nec molestie magna.</p>
       </article>
 
-    <article id="past-experiences">
+      <article id="past-experiences">
          <h2><em>Past Experiences</em></h2>
          <img src="images/city.jpg" alt="Past Experiences Photo">
-         <p>Pellentesque venenatis ligula vel sem porttitor vehicula. <span style="background-color:lightblue; border: thin solid darkblue;">Fusce lectus nibh, sollicitudin ac turpis id, aliquet sodales tellus.</span> Vivamus scelerisque varius augue, a consequat dui efficitur sodales. Maecenas sed leo varius, fringilla magna in, semper est. Aliquam non elit quis nisi ornare volutpat sed id felis.</p>
-         <p>Aliquam semper urna in neque imperdiet, vel interdum sapien luctus. Morbi neque purus, volutpat eu odio at, varius malesuada purus. Sed nec auctor sem.</p>
+         <table>
+           <caption>Employment History</caption>
+           <thead>
+             <tr>
+               <th>Years of Employment</th>
+               <th>Title</th>
+               <th>Company</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td>2022</td>
+               <td>CEO</td>
+               <td>Company 3</td>
+             </tr>
+             <tr>
+               <td>2021</td>
+               <td>Apprentice</td>
+               <td>Company 2</td>
+             </tr>
+             <tr>
+               <td>2020</td>
+               <td>Student</td>
+               <td>Company 1</td>
+              </tr>
+            </tbody>
+          </table>
+      </article>
     </article>
 
-      <article id="hobbies">
+    <article id="hobbies">
          <h2><em>Hobbies</em></h2>
          <img src="images/flowers.jpg" alt="Hobbies Photo">
-         <p>roin posuere feugiat odio, in euismod enim scelerisque sit amet. Sed non volutpat nunc. Suspendisse potenti. Aenean ut diam scelerisque justo tempus fermentum. Quisque porta leo non laoreet ullamcorper. Sed dapibus urna sit amet arcu commodo gravida. Morbi dictum libero dui.</p>
-         <p>Fusce dignissim felis ultricies purus lobortis, non tristique urna ultrices. Curabitur ligula metus, mollis volutpat imperdiet eget, euismod ut purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus posuere sapien, id elementum ex mollis non.</p>
-      </article>
+         <ul>
+            <li>Authors</li>
+            <ol>
+              <li>Stephen King</li>
+              <li>Dan Brown</li>
+              <li>Robin Hood</li>
+            </ol>
+            <li>Video Games</li>
+            <ol>
+              <li>Portal</li>
+              <li>World of Warcraft</li>
+              <li>Skyrim</li>
+            </ol>
+          </ul>
+          <ul>
+            <li>Sports</li>
+            <ul>
+              <li>Soccer</li>
+              <li>Rugby</li>
+              <li>Basketball</li>
+            </ul>
+            <li>Outdoor Activities</li>
+            <ul>
+              <li>Building Sandcastles</li>
+              <li>Pokemon Hunting</li>
+              <li>Skiing</li>
+            </ul>
+          </ul>
+        </article>
     </section>
 
-    <footer style="background-color: fuchsia">
-      <hr style="width: 95%; border: 2px solid violet;">
+    <footer>
       <p>&copy; 2022 Eden Junkin. All rights reserved.</p>
     </footer>
   </body>
