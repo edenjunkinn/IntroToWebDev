@@ -8,6 +8,8 @@ body {
     background-color: #EAEAEA;
     font-family: arial, helvetica, sans-serif;
     color: #050404;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 header, footer {
@@ -82,3 +84,40 @@ input[type=submit]:hover {
       background-color: #fff;
       resize: none;
   }
+
+  .clear-float {
+    clear:both;
+  }
+
+article img {
+  float:left;
+}
+
+.right-content {
+  float:left;
+}
+
+nav a {
+  background-color: #893168;
+  color: #EAEAEA;
+  padding: 8px;
+  border: thin solid #0d1f2d;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 20px;
+  float: left;
+}
+
+nav a:visited {
+    color: #e4c3ad;
+}
+
+nav a:hover {
+  background-color: #EAEAEA;
+  color: #893168;
+}
+
+nav a:active {
+    font-weight: bold;
+}
