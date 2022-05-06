@@ -34,6 +34,11 @@ nav {
   margin-top: 4px;
 }
 
+#description {
+  padding: 10px;
+}
+
+
 label, fieldset {
   font-size: 1.1em;
 }

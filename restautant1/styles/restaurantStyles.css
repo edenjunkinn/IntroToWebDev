@@ -1,0 +1,100 @@
+/*
+Creator: Eden Junkin
+Date created: May 4 2022
+Date last modified: May 4 2022
+*/
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  background-color: #DDC8C4;
+  color: #131200;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "times new roman", helvetica, sans-serif;
+  font-size: 3em;
+}
+
+header, nav, footer {
+  background-color: #4A1942;
+  color: #EFF9F0;
+  padding-top: 10px;
+}
+
+
+footer {
+  padding: 10px;
+}
+
+
+nav .btn {
+  background-color: #3C7A89;
+  color: #EFF9F0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: thin solid #EFF9F0;
+}
+
+nav a:visited {
+    color: #DDC8C4;
+}
+
+nav a:hover {
+  background-color: #EFF9F0;
+  color: #3C7A89;
+  font-weight: bold;
+  border: thin solid #3C7A89;
+}
+
+#description {
+  padding: 10px;
+}
+
+.link {
+  color: #3C7A89;
+  text-decoration: underline;
+}
+
+.link:visited {
+    color: grey;
+}
+
+.link:hover {
+  font-weight: bold;
+  color: #3C7A89;
+}
+
+.link:active {
+  text-decoration: none;
+}
+
+.col-sm-10 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.item {
+  font-weight: bold;
+  font-size: 1.3em;
+  padding-top: 10px;
+}
+
+.menu {
+  background-color: black;
+  color: white;
+  margin: 10px auto;
+  padding-bottom: 10px;
+
+}
+
+table, td {
+  max-width: 200px;
+  margin: 10px auto;
+}
+
+.drink {
+  text-align: left;
+}
