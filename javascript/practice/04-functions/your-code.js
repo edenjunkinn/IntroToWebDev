@@ -4,10 +4,11 @@
 
 // 1. ADD TWO NUMBERS
 // ==================
-// Complete the following function. 
+// Complete the following function.
 // Write code to add firstNumber and secondNumber and then return the result.
 
 function addTwoNumbers(firstNumber, secondNumber) {
+    return firstNumber + secondNumber
     // your code goes here
 }
 
@@ -23,7 +24,7 @@ console.log("112 + 0 -> expected: 112, actual: %s", result);
 result = addTwoNumbers(-53, 40);
 console.log("-53 + 40 -> expected: -13, actual: %s", result);
 
-// 2. FIRST LETTER IN A PHRASE 
+// 2. FIRST LETTER IN A PHRASE
 //   (first character in a string)
 // =============================
 // Complete the following function.
@@ -31,6 +32,7 @@ console.log("-53 + 40 -> expected: -13, actual: %s", result);
 // Write code to return the first character in text.
 // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Character_access
 function getFirstCharacter(text) {
+  return text.charAt(0)
     // your code goes here.
 }
 
@@ -46,14 +48,26 @@ console.log("'Olympus Mons' -> expected: O, actual: %s.", getFirstCharacter("Oly
 // The function should return the maximum of the three parameters.
 // Hint: use conditional statements (if/else) or Math functions inside your function to calculate
 // the correct result.
+function max(x, y, z){
+  if (x > y && x > z){
+    return x;
+  }
+  else if (y > x && y > z){
+    return y;
+  }
+  else {
+    return z;
+  }
+}
+
 // Write your code here:
 
 // Uncomment the code below to verify your function is working.
-// console.log("max =====");
-// console.log("max(-1, 0, 1) -> expected: 1, actual: %s", max(-1, 0, 1));
-// console.log("max(11, 2, 1) -> expected: 11, actual: %s", max(11, 2, 1));
-// console.log("max(-15.67, 33.293, 0.51) -> expected: 33.293, actual: %s", max(-15.67, 33.293, 0.51));
-// console.log("max(4, 987654321, 0) -> expected: 987654321, actual: %s", max(4, 987654321, 0));
+console.log("max =====");
+console.log("max(-1, 0, 1) -> expected: 1, actual: %s", max(-1, 0, 1));
+console.log("max(11, 2, 1) -> expected: 11, actual: %s", max(11, 2, 1));
+console.log("max(-15.67, 33.293, 0.51) -> expected: 33.293, actual: %s", max(-15.67, 33.293, 0.51));
+console.log("max(4, 987654321, 0) -> expected: 987654321, actual: %s", max(4, 987654321, 0));
 
 
 

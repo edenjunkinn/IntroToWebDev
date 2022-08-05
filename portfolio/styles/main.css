@@ -1,0 +1,128 @@
+/*
+Creator: Eden Junkin
+Date created: May 4 2022
+Date last modified: May 4 2022
+*/
+
+body {
+    background-color: #EAEAEA;
+    font-family: arial, helvetica, sans-serif;
+    color: #050404;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header, footer {
+  background-color: #4A1942;
+  color: #EAEAEA;
+  height: 100px;
+  text-align: center;
+  padding: 30px 10px 20px 10px;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+nav {
+  border-top: 3px dashed #546a7b;
+  border-bottom: 3px dashed #546a7b;
+  margin-top: 4px;
+}
+
+#description {
+  padding: 10px;
+}
+
+
+label, fieldset {
+  font-size: 1.1em;
+}
+
+input[type=text] {
+  border: 4px solid #893168;
+  width: 50%;
+  padding: 8px 8px;
+  margin: 12px 0;
+  box-sizing: border-box;
+  font-size: 1.1em;
+}
+
+fieldset {
+  background-color: #EAEAEA;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 12px 0;
+  box-sizing: border-box;
+  border: 4px solid #893168;
+}
+
+select, textarea {
+  margin: 12px 0;
+  font-size: 1em;
+}
+
+input[type=submit] {
+  font-size: 1.2em;
+  background-color: #893168;
+  color: #EAEAEA;
+  padding: 4px 8px;
+}
+
+input[type=submit]:hover {
+    background-color: #f2eded;
+    color: #2E1C2B;
+  }
+
+  textarea {
+      width: 100%;
+      height: 200px;
+      padding: 12px 20px;
+      margin: 12px 0;
+      box-sizing: border-box;
+      border: 4px solid #893168;
+      border-radius: 3px;
+      background-color: #fff;
+      resize: none;
+  }
+
+  .clear-float {
+    clear:both;
+  }
+
+article img {
+  float:left;
+}
+
+.right-content {
+  float:left;
+}
+
+nav a {
+  background-color: #893168;
+  color: #EAEAEA;
+  padding: 8px;
+  border: thin solid #0d1f2d;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 20px;
+  float: left;
+}
+
+nav a:visited {
+    color: #e4c3ad;
+}
+
+nav a:hover {
+  background-color: #EAEAEA;
+  color: #893168;
+}
+
+nav a:active {
+    font-weight: bold;
+}
